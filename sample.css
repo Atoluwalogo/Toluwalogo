@@ -1,0 +1,29 @@
+.section1 {
+    background-image: url("/asset/Images/ContactUs.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay {
+    background-color: rgba(9, 40, 64, 0.90);
+    height: 900px;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+}
+
+.section2 {
+    background-image: url("/asset/Images/Frame\ 31.png");
+    /* height: 1200px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 1800px;
+}
+
+.test {
+    height: 1200px;
+}
