@@ -25,7 +25,7 @@ body {
     font-weight: 450;
 }
 
-.heropage {
+#hib {
     background: linear-gradient(to bottom right, #132840e7, #132840a1), url(/asset/Images/Frame\ 31.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,22 +33,14 @@ body {
     height: 100%;
 }
 
-.menu {
-    align-items: flex-end;
-    color: white;
-    padding: 40px 80px 0 80px;
-    font-weight: 500;
+.overlay {
+    background: rgba(0, 0, 0, 0.623);
 }
-
-
-/* #overlay {
-                    background-color: rgba(9, 40, 64, 0.90);
-                } */
 
 .topic {
     color: white;
     text-align: center;
-    padding: 15%;
+    padding: 20% 0%;
     line-height: 140em;
     text-shadow: 0px 12px 12px rgba(50, 50, 71, 0.08), 0px 16px 24px rgba(50, 50, 71, 0.08);
     font-weight: 500;
@@ -72,10 +64,10 @@ body {
 
 .section4 {
     background-color: lightcoral;
+    height: auto;
     width: 100%;
-    padding: 120px;
     background: #F7FAFC;
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 
 .headermaster {
@@ -91,7 +83,8 @@ body {
 
 .section3 {
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    left: 0px;
     color: #4f4f4f;
     padding: 20px;
 }
@@ -102,10 +95,10 @@ body {
 }
 
 .project_1_image {
-    /* position: relative; */
+    position: relative;
     border-radius: 5px;
-    height: 100%;
     width: 100%;
+    height: auto;
 }
 
 .project_1_text {
@@ -160,15 +153,12 @@ body {
     padding: 2rem;
 }
 
-.sub {
-    text-align: center;
+.level3 {
+    padding-top: 5%;
 }
 
-.color {
-    border-radius: 5px;
-    color: brown;
-    height: 20px;
-    border: 20;
+.sub {
+    text-align: center;
 }
 
 .sub2 {
@@ -215,7 +205,7 @@ body {
 .text4 {
     font-size: 18px;
     /* padding: 2px; */
-    font-weight: 400;
+    font-weight: 500;
     padding: 30px 10px;
 }
 
@@ -225,10 +215,18 @@ body {
 
 .sub3 {
     margin: 0;
+    /* justify-content: space-around; */
 }
 
 .proimage {
+    /* position: absolute; */
     width: 100%;
+    height: auto;
+    /* left: 732px; */
+}
+
+.proimageb {
+    width: 106%;
     height: auto;
 }
 
@@ -252,6 +250,17 @@ body {
     height: auto;
 }
 
+.proimage3 {
+    width: 100%;
+    height: auto;
+}
+
 .contact {
     margin: auto;
+}
+
+.foot {
+    width: auto;
+    height: 80px;
+    left: -9px;
 }
